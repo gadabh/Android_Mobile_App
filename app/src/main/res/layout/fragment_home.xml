@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Tuniscount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="259dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logopng" />
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="L'application TC FIDBOX et la première place de marché en Tunisie.Grace à cette application, vous pouvez non seulement consulter votre solde fidélité,mais également partager , liker , échanger , exprimer et vivre la tendance avec Tuniscount  "
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="307dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/offres_et_promotions"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_light_default"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="327dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="397dp"
+                            android:layout_height="44dp"
+                            android:background="@color/colorPrimary"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/captuyyyyr"
+                                app:srcCompat="@drawable/captuyyyyr" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textVie"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="     # Offre valable jusqu'à aujourd'hui seulement"
+                                    android:textColor="#FFFFFF" />
+
+                                <TextView
+                                    android:id="@+id/tr2"
+                                    android:layout_width="347dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="     # -15% sur tous nos produits!"
+                                    android:textColor="#FFFFFF" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="282dp"
+                        app:srcCompat="@drawable/llll" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_light_default"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_light_default"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:background="@color/colorPrimary"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorPrimary"
+                            app:srcCompat="@drawable/captuyyyyr" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="     # Offre valable jusqu'à aujourd'hui seulement"
+                                android:textColor="#FFFFFF" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="     # Le pack Leo à 1518 DT au lieu de 1649 DT"
+                                android:textColor="#FFFFFF" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="285dp"
+                        app:srcCompat="@drawable/eeeee" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imagecarou"
+                android:layout_width="342dp"
+                android:layout_height="148dp"
+                android:layout_gravity="center"
+                android:background="@color/Tuniscount" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

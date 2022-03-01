@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Tuniscount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="174dp"
+                    android:layout_height="168dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5mm"
+                    android:layout_marginBottom="2mm"
+                    app:srcCompat="@drawable/logopngpng" />
+
+                <LinearLayout
+                    android:id="@+id/information"
+                    android:layout_width="match_parent"
+                    android:layout_height="386dp"
+                    android:background="@color/common_google_signin_btn_text_dark_disabled"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewUserEmail2"
+                            android:layout_width="205dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+
+                            android:text="email :"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#FFFFFF"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textViewUserEmail"
+                            android:layout_width="277dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="8dp"
+                            android:text="email"
+
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#FFFFFF"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewUserNbPoin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5mm"
+                            android:layout_marginEnd="8dp"
+                            android:text="nombre des point :"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#FFFFFF"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textViewUserNbPoin2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5mm"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            android:text="nb"
+
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#FFFFFF"
+                            android:textSize="14sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="136dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="32dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="ID: "
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#FFFFFF" />
+
+                        <TextView
+                            android:id="@+id/id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="id "
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/buttonLogout"
+                        android:layout_width="127dp"
+                        android:layout_height="42dp"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="25dp"
+
+                        android:gravity="center"
+                        android:text="Logout" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
